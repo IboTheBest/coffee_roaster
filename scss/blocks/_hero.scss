@@ -1,0 +1,39 @@
+.hero-section {
+    position: relative;
+    padding: 116px 0 249px 150px;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    display: flex;
+
+}
+.hero-section img{
+    position: absolute;
+    right: 0;
+    top: -72px;
+}
+.hero__title {
+    width: 447px;
+}
+.hero__title h2{
+    font-family: "Roboto",sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    color: #000;    
+}
+.hero__title p{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    margin: 24px 0 34px;
+}
+.hero__title button{
+    @include btn($W:193px, $BG:#0A775F, $C:white)
+}

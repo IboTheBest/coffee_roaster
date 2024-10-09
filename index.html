@@ -3,23 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="icon" href="Img url here"> -->
-     <!-- <link rel="stylesheet" href="CSS file link here"> -->
-    <title>Site Title</title>
+    <link rel="icon" href="./images/site-lcon.svg">
+     <link rel="stylesheet" href="./css/main.css">
+    <title>CoffeeRoaster</title>
 </head>
 <body>
     <header class="site-header">
         <div class="container">
-            <div class="header"></div>
+            <nav class="navbar">
+                <a href="/">
+                    <img src="./images/site-logo.svg" alt="site-logo" width="235" height="24">
+                </a>
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">About us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#">Create your plan</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main class="site-main">
         <section class="hero-section">
             <div class="container">
-                <div class="hero"></div>
+                <div class="hero">
+                    <div class="hero__title">
+                        <h2>Good coffee is made simply.</h2>
+                        <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                        <button>CREATE YOURR PLAN</button>
+                    </div>
+                </div>
+                <img src="./images/hero-section-img.png" alt="hero-section" width="750" height="680">
             </div>
         </section>
-        <!-- section -->
+        <section class="collection-section">
+            <div class="container">
+                <div class="collection">
+                    <h2>OUR COLLECTION</h2>
+                    <ul class="collection__list">
+                        <li class="collection__item">
+                            <img src="./images/collection-section-red.png" alt="collection" width="450" height="375">
+                            <div class="collection__text1">
+                                <h3>Danche</h3>
+                                <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+                            </div>
+                        </li>
+                        <li class="collection__item">
+                            <div class="collection__text">
+                                <h3>Gran Espresso</h3>
+                                <p>Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                            </div>
+                            <img src="./images/collection-section-green.png" alt="green" width="450" height="375">
+                        </li>
+                        <li class="collection__item">
+                            <img src="./images/collection-section-brown.png" alt="brown" width="450" height="375"> 
+                            <div class="collection__text">
+                                <h3>Piccollo</h3>
+                                <p>Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+                            </div>
+                        </li>
+                        <li class="collection__item">
+                            <div class="collection__text4">
+                                <h3>Planalto</h3>
+                                <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+                            </div>
+                            <img src="./images/collection-section-yellow.png" alt="yellow" width="450" height="375">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="site-footer">
         <div class="container">
