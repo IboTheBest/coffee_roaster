@@ -1,5 +1,9 @@
 .collection-section {
     padding: 70px 0 50px;
+    background-image: url("../images/collection-section-bg1.png"),url("../images/collection-section-bg3.png"),url("../images/collection-section-bg2.png");
+    background-repeat: no-repeat;
+    background-position: left top, left bottom 170px, right top 705px;    
+    background-size:auto , 158px 268px;
 }
 .collection {
     h2{
