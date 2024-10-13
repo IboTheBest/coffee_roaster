@@ -71,7 +71,7 @@
 
 .hero-section {
   position: relative;
-  padding: 116px 0 249px 150px;
+  padding: 116px 0 249px;
   background-image: url(../images/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
